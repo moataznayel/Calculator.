@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --dark-color: #19283f;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --section-color: #eff7fa;
+}
+input{
+    border: none !important;
+    height: 75px;
+    padding: 10px;
+    box-shadow: none !important;
+}
+.card{
+    width: 100%;
+    max-width: 500px;
+    background-color: #212529;
+}
+.btn{
+    background-color: black ;
+}
+.container{
+    height: 100vh;
+}
