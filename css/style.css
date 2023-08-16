@@ -1,31 +1,37 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
-    --dark-color: #19283f;
-    --green-color: #33d1cc;
-    --red-color: #ff3150;
-    --yellow-color: #ffc400;
-    --section-color: #eff7fa;
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
 }
-input{
-    border: none !important;
-    height: 75px;
-    padding: 10px;
-    box-shadow: none !important;
+body {
+  background-color: #212529;
 }
-.card{
-    width: 100%;
-    max-width: 500px;
-    background-color: #212529;
+input {
+  border: none !important;
+  height: 75px;
+  padding: 10px;
+  box-shadow: none !important;
 }
-.btn{
-    background-color: black ;
+.card {
+  width: 100%;
+  max-width: 500px;
+  background-color: #212529;
+  /* box-shadow: black 0px 4px 8px -2px, black 0px 0px 0px 1px; */
+  /* box-shadow: white 0px 4px 8px -2px, white 0px 0px 0px 1px; */
+  box-shadow: white 0px 2px 9px 6px, white 3px 1px 10px 1px;
 }
-.container{
-    height: 100vh;
+.btn {
+  background-color: black;
+}
+.container {
+  height: 100vh;
 }
